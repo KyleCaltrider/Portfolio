@@ -1,0 +1,92 @@
+div, p, span, img, a, ul, h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+}
+
+#simulation-container {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+#banner-container {
+  position: absolute;
+  bottom: 1vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#banner {
+  text-align: center;
+  font-size: 3em;
+}
+.arrow-down {
+  margin-top: 20px;
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+.arrowL {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  content: "";
+  background-color: black;
+  width: 74%;
+  height: 5px;
+  transform-origin: left;
+  transform: rotate(45deg);
+  border-radius: 50px;
+  transition: background-color 0.2s ease-in-out;
+}
+.arrowR {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  content: "";
+  background-color: black;
+  width: 74%;
+  height: 5px;
+  transform-origin: right;
+  transform: rotate(-45deg);
+  border-radius: 50px;
+  transition: background-color 0.2s ease-in-out;
+}
+.arrowR.hover, .arrowL.hover {
+  background-color: lightgray;
+}
+
+#about-me {
+  background-color: red;
+  color: white;
+  font-size: 2em;
+  text-align: left;
+  display: block;
+  max-width: 100%;
+  padding: 10px 10px;
+  margin-top: 100vh;
+}
+
+@media screen and (min-width: 450px) {
+  #about-me {
+    text-align: justify;
+  }
+}
+
+#works {
+  margin: 0px 10px 0px 10px;
+}
+
+.work {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 20vh;
+}
+
+.work a {
+  margin-top: 5px;
+}
