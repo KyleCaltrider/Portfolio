@@ -104,7 +104,6 @@ export default () => {
                     const d = distance(cell.position[0], mate.position[0], cell.position[1], mate.position[1]);
                     if (d < (2*(cell.scale + mate.scale) + 5)) {
                         const newCell = {
-                            id: [...Array(10)].map(_ => Math.floor(Math.random()*10)).join("") + cells.length,
                             energy: 50,
                             speed: Math.random() > 0.5 ? cell.speed : mate.speed,
                             scale: 5,
