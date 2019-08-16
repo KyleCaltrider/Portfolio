@@ -1,19 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7e3705a6.chunk.css",
-    "main.js": "/portfolio/static/js/main.f0c152bb.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f0c152bb.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.ee6d46cd.chunk.css",
+    "main.js": "/portfolio/static/js/main.346f9734.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.346f9734.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/js/2.0a771748.chunk.js": "/portfolio/static/js/2.0a771748.chunk.js",
-    "static/js/2.0a771748.chunk.js.map": "/portfolio/static/js/2.0a771748.chunk.js.map",
+    "static/js/2.084f5fb1.chunk.js": "/portfolio/static/js/2.084f5fb1.chunk.js",
+    "static/js/2.084f5fb1.chunk.js.map": "/portfolio/static/js/2.084f5fb1.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.eb3db6ebd6975f2d372471ccf5052797.js": "/portfolio/precache-manifest.eb3db6ebd6975f2d372471ccf5052797.js",
+    "precache-manifest.2c37299f9b16499041fcc6fc70db589b.js": "/portfolio/precache-manifest.2c37299f9b16499041fcc6fc70db589b.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.7e3705a6.chunk.css.map": "/portfolio/static/css/main.7e3705a6.chunk.css.map",
+    "static/css/main.ee6d46cd.chunk.css.map": "/portfolio/static/css/main.ee6d46cd.chunk.css.map",
+    "static/media/CV Kyle Caltrider.pdf": "/portfolio/static/media/CV Kyle Caltrider.fa8dbb00.pdf",
+    "static/media/Docker_logo.png": "/portfolio/static/media/Docker_logo.ebc8a1fb.png",
     "static/media/Facial-recognition-photo.png": "/portfolio/static/media/Facial-recognition-photo.ccfeb4be.png",
-    "static/media/javascript.svg": "/portfolio/static/media/javascript.e169ba29.svg",
+    "static/media/JS_logo.png": "/portfolio/static/media/JS_logo.ee656fd6.png",
+    "static/media/Node_logo.png": "/portfolio/static/media/Node_logo.c46b49af.png",
+    "static/media/Python_logo.png": "/portfolio/static/media/Python_logo.ee1514c5.png",
+    "static/media/React_logo.png": "/portfolio/static/media/React_logo.644fec00.png",
+    "static/media/Resume Kyle Caltrider.pdf": "/portfolio/static/media/Resume Kyle Caltrider.71783f07.pdf",
+    "static/media/about-icon.svg": "/portfolio/static/media/about-icon.9e8cf45e.svg",
+    "static/media/microscope-icon.svg": "/portfolio/static/media/microscope-icon.e999dac0.svg",
     "static/media/parent2pi-photo.png": "/portfolio/static/media/parent2pi-photo.c1751038.png",
-    "static/media/react-etsy-photo.png": "/portfolio/static/media/react-etsy-photo.65bf227b.png"
+    "static/media/react-etsy-photo.png": "/portfolio/static/media/react-etsy-photo.65bf227b.png",
+    "static/media/works-icon.svg": "/portfolio/static/media/works-icon.4e5fdff4.svg"
   }
 }
