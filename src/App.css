@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
 div, p, span, img, a, ul, h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
   font-size: 100%;
+}
+
+.App {
+  font-family: "Oswald"
 }
 
 #simulation-container {
@@ -20,13 +26,13 @@ div, p, span, img, a, ul, h1, h2, h3, h4, h5, h6 {
 }
 #banner {
   text-align: center;
-  font-size: 3em;
+  font-size: 3.5em;
 }
 .arrow-down {
   margin-top: 20px;
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
 }
 .arrowL {
   position: absolute;
@@ -59,34 +65,176 @@ div, p, span, img, a, ul, h1, h2, h3, h4, h5, h6 {
 }
 
 #about-me {
-  background-color: red;
+  background-color: rgb(47, 80, 226);
   color: white;
   font-size: 2em;
-  text-align: left;
+  text-align: center;
   display: block;
   max-width: 100%;
   padding: 10px 10px;
   margin-top: 100vh;
+  box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.6);
+  padding: 20px 0px 20px 0px;
 }
-
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 1000px) {
   #about-me {
-    text-align: justify;
+    font-size: 3.5em;
   }
 }
 
-#works {
-  margin: 0px 10px 0px 10px;
+#strengths-header {
+  font-size: 3.5em;
+  position: relative;
+  width: 260px;
+  margin: 10px auto 20px auto;
+}
+#strengths-header::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  background-color: black;
+  width: 100%;
+  height: 5px;
+}
+#strengths {
+  width: 100%;
+  text-align: center;
+  margin: 100px 0px 100px 0px;
+}
+.strength {
+  width: 30vw;
+  max-width: 200px;
+  min-width: 50px;
+  display: inline-block;
+  margin: 20px;
+  font-size: 1.5em;
+}
+.strength img {
+  width: 100%;
+  height: auto;
+  box-shadow: -2px 5px 3px rgba(0, 0, 0, 0.3);
 }
 
+#works {
+  margin: 0px 10px 50px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#works h1 {
+  font-size: 3.5em;
+  margin: auto;
+  position: relative;
+}
+#works h1::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  background-color: black;
+  width: 100%;
+  height: 5px;
+}
 .work {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 20vh;
+  max-width: 900px;
+  background-color: rgb(47, 80, 226);
+  border-radius: 10px;
+  box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.3);
+  border: solid 2px black;
+  padding: 10px 0px 20px 0px;
+  color: white;
+}
+.work h2 {
+  font-size: 2em;
+  text-align: center;
+}
+.work p {
+  padding: 5px;
+  text-align: justify;
+}
+.work a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  transition: color 0.2s ease-in-out;
+}
+.work a:hover {
+  color: lightgray
+}
+.work img {
+  max-width: 100%;
+  margin: 10px 0px 10px 0px;
 }
 
-.work a {
-  margin-top: 5px;
+#further-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 20px;
+  max-width: 900px;
+  background-color: rgb(47, 80, 226);
+  border: solid 2px black;
+  border-radius: 10px;
+}
+#further-info a {
+  font-size: 2.5em;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s linear;
+  margin: 5px 0px 10px 0px;
+}
+#further-info a:hover {
+  color: lightgray;
+}
+#further-info p {
+  color: white;
+  text-align: justify;
+  padding: 10px;
+}
+#further-info .site-code {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+#further-info .contact {
+  color: white;
+  margin: 20px;
+}
+
+#nav {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  font-size: 2em;
+}
+#nav-menu {
+  opacity: 0.7;
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+}
+#nav-menu:hover {
+  opacity: 1;
+}
+#nav-items {
+  position: relative;
+  top: -300px;
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  align-items: center;
+  cursor: pointer;
+  transition: top 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+#nav-items.active {
+  top: 0;
+}
+#nav-items img {
+  width: 100%;
+  margin-bottom: 10px;
 }

@@ -53,7 +53,7 @@ export default () => {
             offspring = [];
         if (foodCycle === 0) {
             food = foodAmount;
-            foodCycle = 20;
+            foodCycle = 30;
         }
 
         let newCells = cells.map( (cell, ic) => {
@@ -94,8 +94,7 @@ export default () => {
             // Let Cells Reproduce
             cells.forEach((mate , im) => {
                 if (cells.length < cellsLimit &&
-                    cell.id !== mate.id &&
-                    im > ic &&
+                    im !== ic &&
                     cell.repCycle > 100 &&
                     mate.repCycle > 100 &&
                     cell.energy > 50 &&
